@@ -1,0 +1,271 @@
+{
+  "arrive": {
+    "duration": 450,
+    "tracks": {
+      "y": [
+        {
+          "t": 0,
+          "v": 48,
+          "ease": {
+            "type": "spring",
+            "bounce": 0
+          }
+        },
+        {
+          "t": 450,
+          "v": 0,
+          "ease": {
+            "type": "spring",
+            "bounce": 0
+          }
+        }
+      ],
+      "scale": [
+        {
+          "t": 0,
+          "v": 0.92,
+          "ease": {
+            "type": "spring",
+            "bounce": 0
+          }
+        },
+        {
+          "t": 450,
+          "v": 1,
+          "ease": {
+            "type": "spring",
+            "bounce": 0
+          }
+        }
+      ],
+      "opacity": [
+        {
+          "t": 0,
+          "v": 0,
+          "ease": {
+            "type": "spring",
+            "bounce": 0
+          }
+        },
+        {
+          "t": 180,
+          "v": 1,
+          "ease": {
+            "type": "bezier",
+            "p": [
+              0,
+              0,
+              0.58,
+              1
+            ]
+          }
+        }
+      ],
+      "blur": [
+        {
+          "t": 0,
+          "v": 0,
+          "ease": {
+            "type": "spring",
+            "bounce": 0
+          }
+        },
+        {
+          "t": 450,
+          "v": 0,
+          "ease": {
+            "type": "spring",
+            "bounce": 0
+          }
+        }
+      ]
+    }
+  },
+  "recede": {
+    "duration": 180,
+    "tracks": {
+      "y": [
+        {
+          "t": 0,
+          "v": 0,
+          "ease": {
+            "type": "spring",
+            "bounce": 0
+          }
+        },
+        {
+          "t": 180,
+          "v": -40,
+          "ease": {
+            "type": "bezier",
+            "p": [
+              0,
+              0,
+              0.58,
+              1
+            ]
+          }
+        }
+      ],
+      "scale": [
+        {
+          "t": 0,
+          "v": 1,
+          "ease": {
+            "type": "spring",
+            "bounce": 0
+          }
+        },
+        {
+          "t": 180,
+          "v": 0.76,
+          "ease": {
+            "type": "bezier",
+            "p": [
+              0,
+              0,
+              0.58,
+              1
+            ]
+          }
+        }
+      ],
+      "opacity": [
+        {
+          "t": 30,
+          "v": 1,
+          "ease": {
+            "type": "spring",
+            "bounce": 0
+          }
+        },
+        {
+          "t": 180,
+          "v": 0,
+          "ease": {
+            "type": "bezier",
+            "p": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "blur": [
+        {
+          "t": 0,
+          "v": 0,
+          "ease": {
+            "type": "spring",
+            "bounce": 0
+          }
+        },
+        {
+          "t": 180,
+          "v": 16,
+          "ease": {
+            "type": "bezier",
+            "p": [
+              0,
+              0,
+              0.58,
+              1
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "leave": {
+    "duration": 120,
+    "tracks": {
+      "y": [
+        {
+          "t": 0,
+          "v": 0,
+          "ease": {
+            "type": "spring",
+            "bounce": 0
+          }
+        },
+        {
+          "t": 120,
+          "v": 40,
+          "ease": {
+            "type": "bezier",
+            "p": [
+              0.42,
+              0,
+              0.58,
+              1
+            ]
+          }
+        }
+      ],
+      "scale": [
+        {
+          "t": 0,
+          "v": 1,
+          "ease": {
+            "type": "spring",
+            "bounce": 0
+          }
+        },
+        {
+          "t": 120,
+          "v": 1,
+          "ease": {
+            "type": "spring",
+            "bounce": 0
+          }
+        }
+      ],
+      "opacity": [
+        {
+          "t": 0,
+          "v": 1,
+          "ease": {
+            "type": "spring",
+            "bounce": 0
+          }
+        },
+        {
+          "t": 120,
+          "v": 0,
+          "ease": {
+            "type": "bezier",
+            "p": [
+              0,
+              0,
+              0.58,
+              1
+            ]
+          }
+        }
+      ],
+      "blur": [
+        {
+          "t": 0,
+          "v": 0,
+          "ease": {
+            "type": "spring",
+            "bounce": 0
+          }
+        },
+        {
+          "t": 120,
+          "v": 0,
+          "ease": {
+            "type": "spring",
+            "bounce": 0
+          }
+        }
+      ]
+    }
+  },
+  "hold": 1300,
+  "stagger": 0,
+  "dim": 0.375
+}
